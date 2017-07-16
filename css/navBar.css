@@ -1,39 +1,134 @@
 body {
-    margin:0;
+    margin: 0;
 }
 
-ul {
+
+/*old method of nav bar*/
+
+
+/*ul {
     list-style-type: none;
     margin: 10;
     padding: 0;
     overflow: hidden;
 
     /*fix head to top*/
-    position: fixed;
+
+
+/* position: fixed;
     top: 0;
     width: 100%;
-}
+}*/
 
+
+/*
 li {
     float: left;
-}
+}*/
 
-li a {
+
+/*li a {
     color: black;
     text-align: center;
     padding: 10px 10px;
     margin: 50px;
     text-decoration: none;
-}
+}*/
+
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+
+
+/*li a:hover {
     color: pink;
+}*/
+
+#Title {
+    /*display: inline-block;*/
+    float: left;
+    margin: 0px 20px 0px 20px;
 }
 
-.active {
-    text-decoration: underline;
+div.container {
+    /*fix head to top*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+/* Style the tab */
+
+div.tab {
+    /*display: inline-block;*/
+    overflow: hidden;
+    /*text-align: center;*/
+    margin: 0 auto;
+    /*fix head to top*/
+    /*position: fixed;*/
+    top: 0;
+    width: 50%;
+}
+
+
+/* Style the buttons inside the tab */
+
+div.tab button {
+    display: block;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /*padding: 10px 10px;*/
+    /*margin: 0px 20px 0px 20px;*/
+    transition: 0.3s;
+    font-size: 17px;
+    padding: .75rem 0;
+    width: 20%;
+}
+
+div.tab button:hover {
+    color: pink;
     font-weight: bold;
 }
 
+.active {
+    /*text-decoration: underline;*/
+    font-weight: bold;
+    color: pink;
+}
 
+
+/*move bottom underline*/
+
+.one:hover ~ #Line-Bar {
+    margin-left: 0% !important;
+}
+
+.two:hover ~ #Line-Bar {
+    margin-left: 20% !important;
+}
+
+
+.three:hover ~ #Line-Bar  {
+    margin-left: 40% !important;
+}
+
+.four:hover ~ #Line-Bar  {
+    margin-left: 60% !important;
+}
+
+#Line-Bar {
+    display: block;
+    height: .25rem;
+    width: 20%;
+    background: pink;
+    border: none;
+    transition: .3s ease-in-out;
+    /*margin needs to be same as div.tab button*/
+    margin: 0px 1px 0px 0px;
+    /*margin-left: 0%;*/
+    float: left;
+}
