@@ -102,7 +102,7 @@ div.tab button:hover {
 
 
 /*move bottom underline*/
-
+/*
 .one:hover ~ #Line-Bar {
     margin-left: 0% !important;
 }
@@ -118,7 +118,7 @@ div.tab button:hover {
 
 .four:hover ~ #Line-Bar  {
     margin-left: 60% !important;
-}
+}*/
 
 #Line-Bar {
     display: block;
