@@ -1,14 +1,14 @@
 /*
  * @Author: Kevin.Chen 
  * @Date: 2017-07-15 19:59:15 
- * @Last Modified by:   Kevin.Chen 
- * @Last Modified time: 2017-07-15 19:59:15 
+ * @Last Modified by: Kevin.Chen
+ * @Last Modified time: 2017-07-23 14:22:56
  */
 // $(".fade").fadeToggle(500);
 
 
 var tabLinks = $(".tablinks");
-var tabContent = $(".tabcontent");
+var tabContent = $(".content");
 var lineBar = $("#Line-Bar");
 
 tabLinks.on("click", function () {
@@ -20,13 +20,13 @@ tabLinks.on("click", function () {
     $(this).toggleClass("active");
 
     if ($(this).text() === "About") {
-        lineBar.css("margin-left", "0%");
+        lineBar.css("margin-left", "5%");
     } else if ($(this).text() === "Projects") {
-        lineBar.css("margin-left", "20%");
+        lineBar.css("margin-left", "25%");
     } else if ($(this).text() === "Press") {
-        lineBar.css("margin-left", "40%");
+        lineBar.css("margin-left", "45%");
     } else if ($(this).text() === "Bio") {
-        lineBar.css("margin-left", "60%");
+        lineBar.css("margin-left", "65%");
     }
 
 
@@ -44,5 +44,4 @@ function init() {
     tabContent.css("display", "none")
     tabContent.first().css("display", "block")
 }
-
 

@@ -11,11 +11,11 @@
 <head>
     <title>DLD</title>
 
-    <script type="text/javascript" src="js/lib/jquery-3.2.1.min.js">
+    <script type="text/javascript" src="js/lib/jquery-3.2.1.min.js"></script>
 
-    </script>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/navBar.css">
+    <link rel="stylesheet" type="text/css" href="css/content.css">
 </head>
 
 <body>
@@ -33,28 +33,81 @@
     </div>
 
 
-    <div id="About" class="tabcontent" style="padding:20px;margin-top:80px;background-color:white;height:1500px;">
-        <h1>ABOUT</h1>
-        <p>Some text some text some text some text..</p>
-        <p>Some text some text some text some text..</p>
-        <p>Some text some text some text some text..</p>
+    <div id="About" class="content">
+        <div id="About_Text">
+            <h1>Hi, I'm Dawn</h1>
+            <p>I'm an art director, graphics designer, and digital animator based in Los Angeles. I create eye-catching designs
+                inspired by bold colors, textures, and patterns. I've worked with influencers and brands in fashion, travel,
+                beauty, and lifestyle.</p>
+
+
+        </div>
+        <div class="box_img">
+            <img src="img/Still_Images/profile pic_w shadow.png">
+        </div>
+
+        <div class="background_img wrapper" id="rect_Horizontal">
+            <img class="scroll" src="img/Moving_Images/blush rectangle_1.jpg">
+        </div>
+
+        <div class="background_img" id="x_Horizontal">
+            <img src="img/Still_Images/xxxxxx_Vertical.png">
+        </div>
+
+        <div class="background_img" id="leaf">
+            <img src="img/Moving_Images/leaf.png">
+        </div>
+
+        <div class="spacer_Long"></div>
+
+        <div class="box_img newLine parent">
+            <img src="img/Still_Images/Brands I've worked with_w shadow.png">
+            <p class="child names">BlessBox <br> ColourPop <br> Eggie <br> Eyeris Beauty <br> Glowing PR Agency <br> MELANGE <br> ...and more!</p>
+        </div>
+
+        <div class="background_img" id="rect_Vertical">
+            <img src="img/Moving_Images/blush rectangle_2.jpg">
+        </div>
+
+        <div class="background_img" id="geometric1">
+            <img src="img/Moving_Images/geometric_1.png">
+        </div>
+
+        <div class="background_img" id="marble">
+            <img src="img/Moving_Images/marble texture rectangle.jpg">
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="box_img newLine parent right">
+            <img src="img/Still_Images/Influencers I've worked with_w shadow.png">
+            <p class="child names">Jenn Im <br> Adelaine Morin <br> Sazan Hendrix <br> Honeysuckle <br> Gallucks <br> Kossip <br> ...and more!</p>
+        </div>
+
+        <div class="background_img" id="square">
+            <img src="img/Moving_Images/blush square.jpg">
+        </div>
+
+        <div class="background_img" id="x_Vertical">
+            <img src="img/Still_Images/xxxxxx_Horizontal.png">
+        </div>
     </div>
 
-    <div id="Projects" class="tabcontent" style="padding:20px;margin-top:80px;background-color:white;height:1500px;">
+    <div id="Projects" class="content">
         <h1>PROJECTS</h1>
         <p>Project ProjetProjetProjetProjetProjetProjet</p>
         <p>ProjetProjetProjetProjetProjetProjet</p>
         <p>ProjetProjetProjetProjetProjetProjetProjetProjet</p>
     </div>
 
-    <div id="Press" class="tabcontent" style="padding:20px;margin-top:80px;background-color:white;height:1500px;">
+    <div id="Press" class="content">
         <h1>PRESS</h1>
         <p>PressPressPressPressPressPressPress</p>
         <p>PressPressPressPressPress</p>
         <p>PressPressPressPressPressPressPress</p>
     </div>
 
-    <div id="Bio" class="tabcontent" style="padding:20px;margin-top:80px;background-color:white;height:1500px;">
+    <div id="Bio" class="content">
         <h1>BIO</h1>
         <p>BioBioBioBioBioBioBioBio</p>
         <p>BioBioBioBioBioBioBioBioBio</p>
@@ -63,6 +116,8 @@
 
 
     <script type="text/javascript" src="js/navBar.js"></script>
+    <script type="text/javascript" src="js/parallex.js"></script>
+
 </body>
 
 </html>

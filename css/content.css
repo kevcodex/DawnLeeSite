@@ -1,0 +1,124 @@
+.content {
+    padding: 20px;
+    margin-top: 80px;
+    height: 1500px;
+    /* z-index: -1000; */
+}
+
+/*About Styling */
+
+/*Specific items  */
+#About_Text {
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 50px;
+    text-align: center;
+    /* float: left; */
+    display: inline-block;
+}
+#x_Horizontal {
+    margin-top: 27%;
+    margin-left: 10%;
+}
+
+#leaf {
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+#geometric1 {
+    margin-left: -30%;
+    margin-top: 10%;
+}
+
+#rect_Vertical {
+    margin-left: -30%;
+    margin-top: 10%;
+
+}
+
+#rect_Horizontal {
+    margin-left: 10%;
+    /* top: 500px; */
+}
+
+#marble {
+    margin-left: -25%;
+    margin-top: 30%;
+}
+
+#square {
+    margin-left: -25%;
+    margin-top: 20%;
+}
+
+#x_Vertical {
+    margin-top: 20%;
+     margin-left: -5%; 
+}
+
+.names {
+    text-align: center;
+    /* margin-left: 7%; */
+    margin-top: 50px;
+    width: 317px;
+}
+
+/*inline boxes  */
+.box_img {
+    display: inline-block;
+    position: absolute;
+    margin-left: 15%
+}
+
+.background_img {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15%;
+    z-index: -10;
+    display: inline-block;
+}
+
+
+/* add spacer between newLine */
+.spacer {
+    margin-top: 0%;
+}
+
+.spacer_Long {
+    margin-top: 10%;
+}
+
+
+/*prevent in line  */
+.newLine {
+    display: inline-block;
+    position: relative;
+    margin-left: 18%
+}
+
+
+/*position content on right half of page  */
+.right {
+    margin-left: 55%;
+}
+
+/*Have content inside parent  */
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/*with scss I could prbably have it so child stays same width as parent  */
+.child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* #About p {
+    color: pink;
+} */
