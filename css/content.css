@@ -118,6 +118,16 @@
     left: 0;
 }
 
+/*Scale In effect  */
+
+.scaleIn {
+    transform: scale(1);
+    transition: 1s;
+}
+
+.scaleOut {
+    transform: scale(0)
+}
 
 /* #About p {
     color: pink;
